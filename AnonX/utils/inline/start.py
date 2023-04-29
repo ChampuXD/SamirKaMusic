@@ -44,12 +44,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="■ sᴜᴘᴘᴏʀᴛ ■",
+                text="■ ɢʀᴏᴜᴘ  ■",
                 url=f"https://t.me/CAREERPOWER",
             ),
             InlineKeyboardButton(
-                text="□ ɢʀᴏᴜᴘ □",
-                url=f"https://t.me/CAREERPOWER",
+                text="□ sᴜᴘᴘᴏʀᴛ  □",
+                url=f"https://t.me/Quiz123hub",
             )
         ],
         [
