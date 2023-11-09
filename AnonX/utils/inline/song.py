@@ -15,6 +15,12 @@ def song_markup(_, vidid):
         ],
         [
             InlineKeyboardButton(
+                text="● ᴄʀᴇᴀᴛᴏʀ ●",
+                url=f"https://t.me/TheChampu",
+            )
+        ],
+        [
+            InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
