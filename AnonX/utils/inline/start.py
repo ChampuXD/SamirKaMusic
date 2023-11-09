@@ -55,7 +55,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="● ᴄʀᴇᴀᴛᴏʀ ●",
-                url=f"https://t.me/ChampuXD",
+                url=f"https://t.me/TheChampu",
             )
         ]
      ]
