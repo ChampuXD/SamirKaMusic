@@ -61,6 +61,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
+                text="● ᴄʀᴇᴀᴛᴏʀ ●",
+                url=f"https://t.me/TheChampu",
+            )
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -118,6 +124,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
+                text="● ᴄʀᴇᴀᴛᴏʀ ●",
+                url=f"https://t.me/TheChampu",
+            )
+        ],        
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -147,6 +159,12 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="● ᴄʀᴇᴀᴛᴏʀ ●",
+                url=f"https://t.me/TheChampu",
+            )
+        ],        
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -171,6 +189,12 @@ def telegram_markup(_, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="● ᴄʀᴇᴀᴛᴏʀ ●",
+                url=f"https://t.me/TheChampu",
+            )
+        ],        
         [
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
@@ -326,6 +350,12 @@ def queue_markup(_, videoid, chat_id):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="● ᴄʀᴇᴀᴛᴏʀ ●",
+                url=f"https://t.me/TheChampu",
+            )
+        ],        
         [
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
